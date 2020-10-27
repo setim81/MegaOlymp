@@ -1,0 +1,15 @@
+<svg width="370" height="300" viewBox="0 0 370 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="370" height="300" fill="#CAAC7D" fill-opacity="0.25"/>
+<ellipse cx="350" cy="280" rx="7" ry="7.00008" transform="rotate(-180 350 280)" fill="#F4EEE5"/>
+<path d="M341.5 280C341.5 275.305 345.306 271.5 350 271.5C354.694 271.5 358.5 275.305 358.5 280C358.5 284.694 354.694 288.5 350 288.5C345.306 288.5 341.5 284.694 341.5 280Z" stroke="#CAAC7D" stroke-width="3"/>
+<circle cx="350" cy="280" r="5.45455" transform="rotate(-180 350 280)" fill="#CAAC7D"/>
+<ellipse cx="20" cy="280" rx="7.00008" ry="7" transform="rotate(-90 20 280)" fill="#F4EEE5"/>
+<path d="M20 271.5C24.6944 271.5 28.5 275.305 28.5 280C28.5 284.694 24.6944 288.5 20 288.5C15.3056 288.5 11.5 284.694 11.5 280C11.5 275.305 15.3056 271.5 20 271.5Z" stroke="#CAAC7D" stroke-width="3"/>
+<circle cx="20" cy="280" r="5.45455" transform="rotate(-90 20 280)" fill="#CAAC7D"/>
+<ellipse cx="350" cy="20" rx="7" ry="7" transform="rotate(90 350 20)" fill="#F4EEE5"/>
+<path d="M350 28.5002C345.306 28.5002 341.5 24.6946 341.5 20.0001C341.5 15.3056 345.306 11.5 350 11.5C354.694 11.5 358.5 15.3056 358.5 20.0001C358.5 24.6946 354.694 28.5002 350 28.5002Z" stroke="#CAAC7D" stroke-width="3"/>
+<circle cx="350" cy="20" r="5.45455" transform="rotate(90 350 20)" fill="#CAAC7D"/>
+<ellipse cx="20" cy="20" rx="7" ry="7" fill="#F4EEE5"/>
+<path d="M28.5 20.0001C28.5 24.6946 24.6944 28.5002 20 28.5002C15.3056 28.5002 11.5 24.6946 11.5 20.0001C11.5 15.3056 15.3056 11.5 20 11.5C24.6944 11.5 28.5 15.3056 28.5 20.0001Z" stroke="#CAAC7D" stroke-width="3"/>
+<circle cx="20" cy="20" r="5.45455" fill="#CAAC7D"/>
+</svg>

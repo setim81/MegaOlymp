@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- общие стили-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- шрифты-->
+    <link rel="stylesheet" type="text/css" href="css/fonts.css">
+    <!-- стили слайдера-->
+    <link rel="stylesheet" type="text/css" href="css/slider.css">
+    <!-- стили tooltip jquery-->
+    <link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+    <title>MegaOlimp</title>
+</head>
+
+<body>
+    <header>
+        <div class="wrapper">
+            <div class="header_row">
+                <div class="header__logo">
+                    <p>МЕГАОЛИМП</p>
+                    <p class="logo_text">франшиза</p>
+                </div>
+                <div class="header_menu">
+                    <nav>
+                        <a href="#about">О компании</a>
+                        <a href="#cases">Пакеты</a>
+                        <a href="#guarantee">Гарантии</a>
+                        <a href="#how_it_works">Как это работает</a>
+                    </nav>
+                </div>
+                <div class="header_phone">
+                    <p>8-800-800-80-80</p>
+                </div>
+                <div class="header_social">
+                    <a href="https://vk.com"><img src="img/svg/vk.svg" alt="vk.svg"></a>
+                    <a href="https://instagram.com"><img src="img/svg/inst.svg" alt="inst.svg"></a>
+                    <a href="https://facebook.com"><img src="img/svg/fb.svg" alt="fb.svg"></a>
+                    <a href="https://ok.ru"><img src="img/svg/ok.svg" alt="ok.svg"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+
+        <div id="slider" class="slider">
+            <ol class="slider__indicators">
+                <li class="slider__indicator slider__indicator_active" data-slide-to="0"></li>
+                <li class="slider__indicator" data-slide-to="1"></li>
+                <li class="slider__indicator" data-slide-to="2"></li>
+            </ol>
+            <div class="slider__items">
+                <div class="slider__item slider__item_active">
+                    <div class="slide_inside">
+                        <p class="slide_text">Текст на слайде</p>
+                        <img src="img/slide_1.png" alt="slide_1">
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <div class="slide_inside">
+                        <p class="slide_text">Просто в созданном блоке</p>
+                        <img src="img/slide_2.png" alt="slide_2">
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <div class="slide_inside">
+                        <p class="slide_text">например с применением свойства position absolute + left/top</p>
+                        <img src="img/slide_3.png" alt="slide_3">
+                    </div>
+                </div>
+            </div>
+            <a class="slider__control slider__control_prev" href="#" role="button"></a>
+            <a class="slider__control slider__control_next" href="#" role="button"></a>
+        </div>
+        <div class="wrapper">
+            <div class="services" id="about">
+                <h1>Услуги</h1>
+                <hr>
+                <div class="gallery">
+                    <div class="services_line1">
+                        <div class="services_card">
+                            <div class="services_icon">
+                                <img src="img/svg/1_созд_продв_сайтов.svg" alt="">
+                            </div>
+                            <h4 class="services_label">Создание и продвижение сайтов</h4>
+                        </div>
+                        <div class="services_card">
+                            <div class="services_icon">
+                                <img src="img/svg/2_раскрутка_соцсетей.svg" alt="">
+                            </div>
+                            <h4 class="services_label">Оформление, ведение и раскрутка соцсетей</h4>
+                        </div>
+                        <div class="services_card">
+                            <div class="services_icon">
+                                <img src="img/svg/3_разработка_моб_прил.svg" alt="">
+                            </div>
+                            <h4 class="services_label">Разработка мобильных приложений</h4>
+                        </div>
+                    </div>
+                    <div class="services_line2">
+                        <div class="services_card">
+                            <div class="services_icon">
+                                <img src="img/svg/4_настройка_яндексдирект.svg" alt="">
+                            </div>
+                            <h4 class="services_label">Настройка и Ведение Яндекс Директ</h4>
+                        </div>
+                        <div class="services_card">
+                            <div class="services_icon">
+                                <img src="img/svg/5_настройка_гугладвордс.svg" alt="">
+                            </div>
+                            <h4 class="services_label">Настройка и Ведение Гугл Эдвордс</h4>
+                        </div>
+                        <div class="services_card">
+                            <div class="services_icon">
+                                <img src="img/svg/6_настройка_рекламы.svg" alt="">
+                            </div>
+                            <h4 class="services_label">Настройка и ведение таргетинговой рекламы</h4>
+                        </div>
+                    </div>
+                    <div class="services_line3">
+                        <div class="services_card">
+                            <div class="services_icon">
+                                <img src="img/svg/7_разраб_автоматиз_бизн.svg" alt="">
+                            </div>
+                            <h4 class="services_label">Разработка и автоматизация в бизнес</h4>
+                        </div>
+                        <div class="services_card">
+                            <div class="services_icon">
+                                <img src="img/svg/8_разработка_брендбука.svg" alt="">
+                            </div>
+                            <h4 class="services_label">Разработка Брендбука</h4>
+                        </div>
+                        <div class="services_card">
+                            <div class="services_icon">
+                                <img src="img/svg/9_упаковка_франшиз.svg" alt="">
+                            </div>
+                            <h4 class="services_label">Упаковка и Реализация Франшиз</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="franchise">
+                <h1 id="cases">Активная франшиза</h1>
+                <hr>
+                <div class="gallery">
+                    <div class="franchise_row">
+                        <div class="franchise_block">
+                            <h3>Пакет 1</h3>
+                            <p>300 000 рублей</p>
+                            <p>10 дней открытие</p>
+                            <p>70 000 в месяц прибыль</p>
+                            <a class="button" href="case_1.html">Подробнее</a>
+                        </div>
+                        <div class="franchise_block">
+                            <h3>Пакет 2</h3>
+                            <p>2 600 000 рублей</p>
+                            <p>12 дней открытие</p>
+                            <p>140 000 месяц прибыль</p>
+                            <a class="button" href="#">Подробнее</a>
+                        </div>
+                        <div class="franchise_block">
+                            <h3>Пакет 3</h3>
+                            <p>900 000 рублей</p>
+                            <p>14 дней открытие</p>
+                            <p>210 000 месяц прибыль</p>
+                            <a class="button" href="#">Подробнее</a>
+                        </div>
+                        <div class="franchise_block">
+                            <h3>Пакет 4</h3>
+                            <p>1 200 000 рублей</p>
+                            <p>16 дней открытие</p>
+                            <p>280 000 месяц прибыль</p>
+                            <a class="button" href="#">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="franchise">
+                <h1>Пассивная франшиза</h1>
+                <hr>
+                <div class="gallery">
+                    <div class="franchise_row">
+                        <div class="franchise_block">
+                            <h3>Пакет 1</h3>
+                            <p>300 000 рублей</p>
+                            <p>120 дней возврат инвестиций</p>
+                            <p>7% оборота и доли в компании</p>
+                            <a class="button" href="#">Подробнее</a>
+                        </div>
+                        <div class="franchise_block">
+                            <h3>Пакет 2</h3>
+                            <p>600 000 рублей</p>
+                            <p>115 дней возврат инвестиций</p>
+                            <p>9% оборота и доли в компании</p>
+                            <a class="button" href="#">Подробнее</a>
+                        </div>
+                        <div class="franchise_block">
+                            <h3>Пакет 3</h3>
+                            <p>900 000 рублей</p>
+                            <p>110 дней возврат инвестиций</p>
+                            <p>11% оборота и доли в компании</p>
+                            <a class="button" href="#">Подробнее</a>
+                        </div>
+                        <div class="franchise_block">
+                            <h3>Пакет 4</h3>
+                            <p>1 200 000 рублей</p>
+                            <p>105 месяца возврат инвестиций</p>
+                            <p>13% оборота и доли в компании</p>
+                            <a class="button" href="#">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="partners">
+                <h1>Партнеры</h1>
+                <hr>
+                <div class="partners_row">
+                    <img src="img/logos/1_callback_hunter.png" alt="">
+                    <img src="img/logos/2_atmocrm.png" alt="">
+                    <img src="img/logos/3_opencart.png" alt="">
+                    <img src="img/logos/4_crmboost.png" alt="">
+                </div>
+                <div class="partners_row">
+                    <img src="img/logos/5_bitrix24.png" alt="">
+                    <img src="img/logos/6_modx.png" alt="">
+                    <img src="img/logos/7_joomla.png" alt="">
+                    <img src="img/logos/8_wordpress.png" alt="">
+                </div>
+            </div>
+            <div class="clients">
+                <h1>Клиенты</h1>
+                <hr>
+                <div class="clients_grid">
+                    <div class="partners_row">
+                        <img src="img/logos/9_tesla.png" alt="">
+                        <img src="img/logos/10_rebat.png" alt="">
+                        <img src="img/logos/11_lfm.png" alt="">
+                        <img src="img/logos/12_sarke.png" alt="">
+                    </div>
+                    <div class="partners_row">
+                        <img src="img/logos/13_galen.png" alt="">
+                        <img src="img/logos/14_aspect.png" alt="">
+                        <img src="img/logos/15_market.png" alt="">
+                        <img src="img/logos/16_lifan.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="whywe" id="guarantee">
+                <h1>Почему наша франшиза</h1>
+                <hr>
+                <div class="whywe_grid">
+                    <ul class="whywe_column_list">
+                        <li class="name">Гарантия возврата</li>
+                        <li>Вернем Вам все деньги если заявленное нами не соответствует действительности</li>
+                        <li class="name">Контроль процессов</li>
+                        <li>Мы дорожим Вашими деньгами и нашей репутацией. Для этого контроль на всех этапах.</li>
+                        <li class="name">Автоматизация бизнеса</li>
+                        <li>Автоматизация позволяет контролировать все в режиме реального времени</li>
+                        <li class="name">ВЭБ разработки</li>
+                        <li>Создаем новые инструменты для клиентов. Гарантия стабильного роста и развития</li>
+                    </ul>
+                    <ul class="whywe_column_list">
+                        <li class="name">Роялти 10% от оборотки</li>
+                        <li>В наших интересах чтобы у Вас постоянно были заказы и Вы их реализовывали</li>
+                        <li class="name">Опыт ТОП специалистов</li>
+                        <li>Бизнес строился не только на положительном опыте но и на ошибках</li>
+                        <li class="name">База исполнителей</li>
+                        <li>Крупнейшая база исполнителей РФ и СНГ. Воспитываем кадры в ногу со временем</li>
+                        <li class="name">Доступность франшизы</li>
+                        <li>Прозрачная схема покупки франшизы и обоснованность стоимости и действий</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="geography">
+                <h1>География</h1>
+                <hr>
+                <div class="map">
+                    <object data="img/map/russia_fin.svg" type="image/svg+xml" id="svgmap" height="100%" width="100%"></object>
+
+                    <div class="map_text_block">
+                        <p>Вы можете быть партнером в любом городе Российской федерации. Плотность населения не имеет
+                            значения. Исполнители работают на удаленке. Заказы со всей России и СНГ. Офис - это Вы или Ваше
+                            доверенное лицо, которое управляет персоналом и автоматизированными процессами.</p>
+                    </div>
+                    <div class="description"></div>
+                </div>
+            </div>
+            <div class="control" id="how_it_works">
+                <h1>Контроль</h1>
+                <hr>
+                <div class="control_inside">
+                    <div class="control_text">
+                        <p>Благодаря современным технологиям Вы можете в режиме онлайн видеть процесс выполнения работы на
+                            любой стадии, любого из сотрудников, а так же получать ежедневный отчет по проделанной
+                            работе.</p>
+                        <p>Все это благодаря одному управляющему и современных технологиям. Каждое действие фиксируется
+                            системой и облегчает производственный процесс.</p>
+                    </div>
+                    <img src="img/control.png" alt="">
+                </div>
+            </div>
+            <div class="orders">
+                <h1>Откуда столько заказов?</h1>
+                <hr>
+                <div class="gallery">
+                    <div class="orders_row">
+                        <div class="orders_block">
+                            <h3>Яндекс Директ</h3>
+                            <p>19 <br>в сутки</p>
+                            <p>570 <br>в месяц</p>
+                        </div>
+                        <div class="orders_block">
+                            <h3>Гугл Адвордс</h3>
+                            <p>17 <br>в сутки</p>
+                            <p>510 <br>в месяц</p>
+                        </div>
+                        <div class="orders_block">
+                            <h3>Авито Россия</h3>
+                            <p>11 <br>в сутки</p>
+                            <p>330 <br>в месяц</p>
+                        </div>
+                        <div class="orders_block">
+                            <h3>Автопрозвон Россия</h3>
+                            <p class="no_pad">27 <br>в сутки</p>
+                            <p>710 <br>в месяц</p>
+                        </div>
+                    </div>
+                    <div class="orders_row">
+                        <div class="orders_block">
+                            <h3>Социальные сети</h3>
+                            <p class="no_pad">12 <br>в сутки</p>
+                            <p>360 <br>в месяц</p>
+                        </div>
+                        <div class="orders_block">
+                            <h3>Кроссмаркетинг Россия</h3>
+                            <p class="no_pad">17 <br>в сутки</p>
+                            <p>510 <br>в месяц</p>
+                        </div>
+                        <div class="orders_block">
+                            <h3>Отдел продаж</h3>
+                            <p>9 <br>в сутки</p>
+                            <p>270 <br>в месяц</p>
+                        </div>
+                        <div class="orders_block">
+                            <h3>IT Порталы</h3>
+                            <p>11 <br>в сутки</p>
+                            <p>350 <br>в месяц</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="possib">
+                <h1>Наши нереализованные возможности!</h1>
+                <hr>
+                <div class="possib_list">
+                    <div class="possib_row">
+                        <h4>Кроссмаркетинг Россия</h4>
+                        <div id="counter"></div>
+                        <div class="possib_row_block">
+                            <p class="possib_row_value">120</p>
+                            <p class="possib_row_descr">заявок в сутки</p>
+                        </div>
+                        <div class="possib_row_block">
+                            <p class="possib_row_value">3600</p>
+                            <p class="possib_row_descr">заявок в месяц</p>
+                        </div>
+                        <div class="possib_row_block">
+                            <p class="possib_row_value">43200</p>
+                            <p class="possib_row_descr">заявок в год</p>
+                        </div>
+                    </div>
+                    <div class="possib_row">
+                        <h4>Мы прорабатываем только 1,7%:</h4>
+                        <div class="possib_row_block">
+                            <p class="possib_row_value">2</p>
+                            <p class="possib_row_descr">проекта в сутки</p>
+                        </div>
+                        <div class="possib_row_block">
+                            <p class="possib_row_value">60</p>
+                            <p class="possib_row_descr">проектов в месяц</p>
+                        </div>
+                        <div class="possib_row_block">
+                            <p class="possib_row_value">720</p>
+                            <p class="possib_row_descr">проектов в год</p>
+                        </div>
+                    </div>
+                    <div class="possib_row">
+                        <h4>Если перевести это в деньги</h4>
+                        <div class="possib_row_block">
+                            <p class="possib_row_value">30000</p>
+                            <p class="possib_row_descr">рублей в сутки</p>
+                        </div>
+                        <div class="possib_row_block">
+                            <p class="possib_row_value">900000</p>
+                            <p class="possib_row_descr">рублей в месяц</p>
+                        </div>
+                        <div class="possib_row_block">
+                            <p class="possib_row_value">10800000</p>
+                            <p class="possib_row_descr">рублей в год</p>
+                        </div>
+                    </div>
+                    <div class="possib_row">
+                        <h4>Рентабельность бизнеса 70%</h4>
+                        <div class="possib_row_block">
+                            <div class="possib_row_block_direction">
+                                <p class="possib_row_value">5</p>
+                                <p class="percent">%</p>
+                            </div>
+                            <p class="possib_row_descr">планирование</p>
+                        </div>
+                        <div class="possib_row_block">
+                            <div class="possib_row_block_direction">
+                                <p class="possib_row_value">20</p>
+                                <p class="percent">%</p>
+                            </div>
+                            <p class="possib_row_descr">реализация</p>
+                        </div>
+                        <div class="possib_row_block">
+                            <div class="possib_row_block_direction">
+                                <p class="possib_row_value">5</p>
+                                <p class="percent">%</p>
+                            </div>
+                            <p class="possib_row_descr">сопровождение</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="footer">
+        <div class="wrapper">
+            <div class="footer_row">
+                <div class="footer_logo">
+                    <div class="header__logo">
+                        <p>МЕГАОЛИМП</p>
+                        <p class="logo_text_footer">франшиза</p>
+                    </div>
+                </div>
+                <div class="footer_mail">info@megaolimp.ru</div>
+                <div class="footer_phone">
+                    <p>8-800-800-80-80</p>
+                </div>
+                <div class="footer_social">
+                    <a href="https://vk.com"><img src="img/svg/vk.svg" alt="vk.svg"></a>
+                    <a href="https://instagram.com"><img src="img/svg/inst.svg" alt="inst.svg"></a>
+                    <a href="https://facebook.com"><img src="img/svg/fb.svg" alt="fb.svg"></a>
+                    <a href="https://ok.ru"><img src="img/svg/ok.svg" alt="ok.svg"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- скрипт jquery ui -->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <!-- скрипт карты при необходимости -->
+    <script src="js/jquery.js"></script>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <!-- скрипт слайдера -->
+    <script type="text/javascript" src="js/slider.js"></script>
+    <!-- скрипт кнопки вверх -->
+    <script type="text/javascript" src="js/scroll_top.js"></script>
+    <!-- подключаем основной скрипт анимации цифр -->
+    <script type="text/javascript" src="js/jquery.spincrement.js"></script>
+    <!-- подключаем вспомогательный скрипт анимации цифр -->
+    <script type="text/javascript" src="js/spincrement.js"></script>
+    <script>
+    // ВАЖНО!! чтобы получить доступ к DOM svg файла надо запускать index.html не из локального файла а из под сервера
+    // (например в OpenServer))
+    window.onload = function() { // нужно дождаться, пока вся графика (и наша карта тоже) загрузится, поэтому используем window.onload,
+        // Get the Object by ID
+        var a = document.getElementById("svgmap");
+        // Get the SVG document inside the Object tag Получаем доступ к объектной модели SVG-файла
+        var svgdom = a.contentDocument;
+ 
+        $(svgdom.getElementsByClassName("area")).mousemove(function() {
+            $(this).attr("fill", "#aa8855");
+
+            $description = $(".description"); // добавляем класс description
+            $description.addClass('active'); // добавляем к description класс active
+            $description.html($(this).attr('title')); //получаем строку типа "<div class="description active">Красноярский край</div>"
+
+            $(document).on('mousemove', function(e) {
+                $description.css({
+                    left: (e.pageX) + 'px',
+                    top: (e.pageY - 70) + 'px'
+                });
+
+            });
+
+        });
+
+        $(svgdom.getElementsByClassName("area")).mouseout(function() {
+            $(this).attr("fill", "#CAAC7D");
+            $description = $(".description");
+            $description.removeClass('active');
+
+        });
+    };
+    </script>
+</body>
+
+</html>
